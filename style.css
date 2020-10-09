@@ -37,11 +37,15 @@ body {
 }
 
 .header-email {
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
 }
 
 .header-phone {
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
@@ -105,7 +109,7 @@ body {
 }
 
 .skills-list dt {
-  padding-left: 32px;
+  padding-left: 5px;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -116,6 +120,10 @@ body {
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+}
+
+.style-margin {
+  margin:0 20px;
 }
 
 .level {
@@ -167,6 +175,10 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+}
+
+.blog {
+	padding-top: 30px;
 }
 
 .page-footer {
